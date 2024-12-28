@@ -1,0 +1,90 @@
+/* Conteneur principal */
+.conteneur-panier {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titre principal */
+  .titre {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Section des champs d'entrée */
+  .section-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Champs de saisie */
+  .champ-saisie {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  /* Bouton Ajouter */
+  .bouton-ajouter {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bouton-ajouter:hover {
+    background-color: #218838;
+  }
+  
+  /* Liste des produits */
+  .liste-panier {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .article-panier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Bouton Supprimer */
+  .bouton-supprimer {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bouton-supprimer:hover {
+    background-color: #c82333;
+  }
+  
+  /* Total */
+  .total {
+    text-align: right;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
